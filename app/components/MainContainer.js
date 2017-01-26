@@ -1,10 +1,10 @@
 import React from 'react'
 import { transparentBG } from '../styles'
 
-function MainContainer (props){
+function MainContainer ({children}){
 	return (
 		<div className="jumbotrone col-sm-12 text-center" style={transparentBG}>
-			{props.children}
+			{children}
 		</div>
 	)
 }
